@@ -1,0 +1,58 @@
+#my-photo {
+  height: 448px;
+  border-radius: 15px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-me-h1 {
+  font-size: 64px;
+}
+.about-me-h2 {
+  font-size: 18px;
+}
+
+.text-content {
+  margin: 40px;
+}
+.button-to-project {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+.button-to-project:hover {
+  opacity: 0.9;
+  color: lightgoldenrodyellow;
+}
+@media (max-width: 1200px) {
+  .about-section {
+    padding: 50px 20px;
+  }
+  .text-content {
+    margin: 40px 0 ;
+    text-align: center;
+  }
+  #my-photo {
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+  }
+  .about-me-information {
+    margin: 0 50px ;
+  }
+}
+@media (max-width: 300px) {
+  .about-section {
+    padding: 0;
+  }
+
+
+  .about-me-h1 {
+    font-size: 44px;
+  }
+}
