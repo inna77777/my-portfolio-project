@@ -33,6 +33,7 @@
 .logo {
   width: 50px;
 }
+
 @media (max-width: 850px) {
   .navigation ul li a {
     font-size: 20px;
@@ -48,6 +49,30 @@
   .navigation ul li {
     margin: 5px;
   }
+   .flex-container {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  .flex-container h3 {
+
+    font-size: 30px;
+  }
+  .flex-container p{
+        margin-bottom: 20px;
+  }
+.flex-container2 a{
+  margin: 10px;
+  font-size: 20px;
+  color: #6c63ff;
+  padding: 10px 15px;
+}
+#email{
+  font-size: 18px;
+}
+
 }
 @media (max-width: 400px) {
   .navigation ul li a {
@@ -80,8 +105,96 @@ h1 {
 .row {
   margin-bottom: 24px;
 }
+#container-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f7fe;
+  padding: 30px 120px;
+  border-radius: 10px;
+  width: 100%;
+}
+.flex-container h3 {
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+}
+.flex-container p {
+  color: #6c757d;
+  font-family: "Poppins", sans-serif;
+}
+#email{
+  font-size: 
+  30px;
+font-family: "Playfair Display", serif;
+font-weight: 700;
+color: #000000;
+text-decoration: none;
+
+}
+#email:hover{
+    color: #6c63ff;
+}
+.flex-container2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container2 a{
+  margin: 30px;
+  font-size: 40px;
+  color: #6c63ff;
+  padding: 10px 20px;
+  background-color:  #f9f7fe;
+  border-radius: 60%;
+}
+.flex-container2 a:hover{
+  background-color: #6c63ff;
+  color: white;
+}
+
+.button-contact {
+  margin-top: 49px;
+  background-color: #6c63ff;
+  color: #ffffff;
+  padding: 18px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 27px;
+  box-shadow: 4px 4px 4px gray;
+}
+.button-contact:hover {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  background-color: #f9f7fe;
+}
 
 @media screen and (max-width: 800px) {
+    .flex-container h3 {
+
+    font-size: 30px;
+  }
+  .flex-container p{
+        margin-bottom: 20px;
+  }
+.flex-container2 a{
+  margin: 10px;
+  font-size: 20px;
+  color: #6c63ff;
+  padding: 10px 15px;
+}
+#email{
+  font-size: 18px;
+}
   .row {
     margin-bottom: 0;
   }
@@ -104,4 +217,18 @@ h1 {
   .projects .container .row .col {
     margin-bottom: 20px;
   }
+}
+@media (max-width:1000px) {
+  .projects{
+    padding-bottom: 0;
+  }
+   .flex-container {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+
 }
