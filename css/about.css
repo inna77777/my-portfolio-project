@@ -33,8 +33,30 @@
 .logo {
   width: 50px;
 }
-/* finish of nav */
+@media (max-width: 850px) {
+  .navigation ul li a {
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .navigation {
+    padding: 20px 10px;
+  }
+  .logo {
+    width: 40px;
+    margin-right: 10px;
+  }
+  .navigation ul li {
+    margin: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .navigation ul li a {
+    font-size: 14px;
+    line-height: 2px;
+  }
+}
 
+/* finish of nav */
 
 #my-photo {
   height: 448px;
